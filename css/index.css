@@ -53,7 +53,7 @@ form button:hover {
 
 #Main {
     color: white;
-    background-image: url("https://cdn.pixabay.com/photo/2023/04/09/15/19/glitter-7911733_960_720.jpg");
+    background-image: url("https://cdn.pixabay.com/photo/2014/06/16/23/39/black-370118_960_720.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -65,6 +65,24 @@ form button:hover {
 #shaders tr td form button a{
     text-decoration: none;
     color: blue;
+}
+main img{
+    width: 250px;
+    margin-top: 5px;
+}
+.box1{
+    background-color: rgb(91, 96, 96);
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: large;
+
+}
+.box1 a{
+    text-decoration: none;
+    color: white;
 }
 
 /* <-----------------------------Footer------------------------------------> */
