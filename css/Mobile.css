@@ -1,12 +1,12 @@
 /* <-------------------------For Mobile---------------------> */
 
 @media (max-width:700px) {
-    header table th img {
+    /* header table th img {
         width: 0;
-    }
+    } */
 
     header table tr th {
-        font-size: 10px;
+        font-size: large;
         font-weight: bolder;
     }
 
@@ -30,8 +30,8 @@
         width: 20px;
         height: 12px;
     }
-    #Main{
-        font-size: small;
+    main{
+        font-size: 12px;
     }
     #shaders{
         padding:0;
