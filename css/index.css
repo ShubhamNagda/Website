@@ -1,0 +1,86 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* <------------------Header---------------------> */
+
+header table tr th {
+    list-style: none;
+    display: inline-flex;
+    flex-direction: row;
+    font-size: larger;
+    font-weight: bolder;
+    margin: auto;
+    flex-wrap: nowrap;
+    padding: 5px;
+}
+
+header table tr th a:hover {
+    color: gray;
+    cursor: pointer;
+}
+
+/* <-----------------Logo--------------------------> */
+header table th img {
+    width: 40px;
+    border-radius: 5px;
+}
+
+/* <-----------------search box--------------------> */
+header table th form button {
+    background-color: rgb(138, 137, 137);
+    cursor: pointer;
+    padding: 3px;
+    border: 0.2px;
+}
+
+header table th form button img {
+    width: 20px;
+    height: 12px;
+}
+
+header table th a {
+    text-decoration: none;
+    color: black;
+}
+
+form button:hover {
+    color: aliceblue;
+    background-color: rgb(173, 175, 176);
+}
+
+/* <--------------------------Main Body --------------------------------------> */
+
+#Main {
+    color: white;
+    background-image: url("https://cdn.pixabay.com/photo/2023/04/09/15/19/glitter-7911733_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#shaders{
+    font-size: larger;
+    padding: 3px;
+    margin-left:3px ;
+}
+#shaders tr td form button a{
+    text-decoration: none;
+    color: blue;
+}
+
+/* <-----------------------------Footer------------------------------------> */
+
+#about {
+    background-color: gray;
+    font-style: italic;
+    font-weight: normal;
+    font-size: large;
+    align-items: center;
+    text-align: center;
+}
+#about a {
+    text-decoration: none;
+    color: rgb(0, 0, 255);
+}
+#about a:hover {
+    color: rgb(59, 59, 148);
+}
